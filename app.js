@@ -7,5 +7,5 @@ app.get('/', function(req, res) {
   res.send('The value of PORT is:', process.env.game.properties)
 })
 app.listen(8080, function() {
-  console.log('Sample app is listening on port 8080.')
+  console.log(process.env);
 })
